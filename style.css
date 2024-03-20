@@ -1,4 +1,37 @@
 * {
   font-family: "Georgia", "Times New Roman", "Garamond", serif;
   background-color: hsl(360, 35%, 89%);
+  text-align: justify;
+}
+
+.adjust-heading {
+  font-size: 36px;
+  color: hsl(232, 48%, 23%);
+  background-color: rgb(249, 207, 207);
+}
+
+.adjust-heading.adjust-description,
+.adjust-heading.adjust-ingredients,
+.adjust-heading.adjust-steps {
+  font-size: 28px;
+  background-color: rgba(241, 200, 194, 0.644);
+}
+
+.adjust-description,
+.adjust-ingredients,
+.adjust-steps {
+  font-weight: bold;
+  color: rgb(85, 12, 105);
+}
+
+body p,
+ol li,
+ul li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.change-image-size {
+  height: auto;
+  width: 410px;
 }
