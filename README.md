@@ -17,6 +17,9 @@ This is a basic recipe website which consists of a main index page with links to
 
 ## Improvements
 - [x] Style it up with CSS
+- [ ] Apply CSS box model to index page
+- [ ] Style up index page with layouts, colors, and styles
+- [ ] Style up rest of the web pages with layouts, colors, and styles
 
 ## Self Reflections
 - This is the first time I've dealt with web development. It was quite a fun experience.
