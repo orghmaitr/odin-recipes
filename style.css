@@ -1,37 +1,79 @@
-* {
-  font-family: "Georgia", "Times New Roman", "Garamond", serif;
-  background-color: hsl(360, 35%, 89%);
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: "Trebuchet", "Arial", sans-serif;
+  background-color: hsl(0, 68%, 75%);
   text-align: justify;
+}
+
+.main-container,
+.secondary-container,
+.image-container,
+.text-container,
+.adjust-heading,
+a, span, p, strong, em, ul, ol, li  {
+  background-color: rgb(252, 248, 252);
+}
+
+.main-container {
+  width: 680px;
+  margin: 0 auto;
+  border: 4mm ridge rgb(240, 233, 240);
+  border-style: outset;
+  border-radius: 30px;
+  padding: 8px;
+}
+
+.secondary-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  text-align: center;
 }
 
 .adjust-heading {
   font-size: 36px;
-  color: hsl(232, 48%, 23%);
-  background-color: rgb(249, 207, 207);
+  color: hsl(273, 14%, 25%);
+  text-decoration: underline overline #FF3028;
+  text-emphasis: filled red;
+  text-shadow: 1px 1px 2px rgb(106, 107, 93), 0 0 1em rgb(151, 151, 194), 0 0 0.2em rgb(255, 0, 208);
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
 }
 
 .adjust-heading.adjust-description,
 .adjust-heading.adjust-ingredients,
 .adjust-heading.adjust-steps {
   font-size: 28px;
-  background-color: rgba(241, 200, 194, 0.644);
-}
-
-.adjust-description,
-.adjust-ingredients,
-.adjust-steps {
-  font-weight: bold;
-  color: rgb(85, 12, 105);
-}
-
-body p,
-ol li,
-ul li {
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .change-image-size {
   height: auto;
   width: 410px;
+  border-radius: 10px 100px / 120px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  border: 3px solid rgb(85, 71, 86);
+  border-radius: 50% 20% / 10% 40%;
+  font-weight: 900;
+  color: #e91d1d;
+  text-shadow: rgb(239, 220, 241) 1px 0 10px;
+}
+
+span {
+  margin: 10px;
+  text-shadow: rgb(194, 158, 191) 1px 0 10px;
+  padding: 10px;
 }
